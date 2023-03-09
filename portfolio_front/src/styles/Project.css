@@ -1,0 +1,65 @@
+.image-project {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;  
+}
+
+.project {
+    width: 11%;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 3;  
+}
+
+.project p {
+text-align: center;
+line-height: 15px;
+padding-bottom: 15px;
+}
+
+.textebutton{
+    color: white;
+   padding-top: 5px;  
+   
+}
+
+.buttontest:hover {
+  -webkit-animation: scale-up-center 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+
+
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+
+.buttontest {
+    background-color:#202124 ;
+    border-radius: 10px 10px 10px 10px;
+    height: 25px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    margin-top: 15px;
+    
+}
+
+.button {
+    perspective: 80px;
+    margin-top: 20px;
+}
+
+.lien_site {
+  text-decoration: none;
+}

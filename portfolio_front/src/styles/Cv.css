@@ -1,0 +1,227 @@
+   
+#root {
+    width: 80%;
+}
+ 
+.header {
+    text-align: center;
+} 
+
+.lien-home {
+    color: black;
+    text-decoration: none;
+}
+
+.user_and_picture {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.title_information {
+    color: #B67332;
+    font-size: 23px;
+}
+
+.information {
+    margin-top: 30px;
+    border: 2px solid #202124;
+    height: auto;
+    background-color: #9AC8EB;      
+}
+
+.information h2 {
+    color: #B67332;
+}
+
+.information_user {
+    display: flex;
+    align-items: center;
+}
+
+.icon_cv {
+    padding-right: 15px;
+}
+
+.picture_nicolas_cv {
+    width: 300px;
+    height: 300px;
+    object-fit: cover
+}
+
+.testflexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.experiences_and_langue {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.title_langues {
+    margin-top: 200px;
+}
+
+
+
+.training_and_hobby {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around
+}
+
+.certificate {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.certificate a {
+    text-decoration: none;
+    
+}
+.bagage {
+    height: 50px;
+    color: #202124;
+    margin-top: 10px;
+}
+
+.testnico {
+    display: flex;
+}
+
+
+
+
+/* tablette*/
+@media screen and (min-width:768px) and (max-width:991px){
+
+.information {
+    height: auto;
+}
+
+.title_information {
+    margin-top: 50px;
+}
+
+.user_and_picture {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.experiences_and_langue {
+    flex-direction: column;
+    text-align-last: center;
+    margin-top: 50px;
+}
+
+.title_langues {
+    margin-top: 50px;
+}
+
+.training_and_hobby {
+    flex-direction: column;
+    text-align-last: center
+}
+
+.logiciel_and_langue {
+    margin-top: 50px;
+}
+
+.hobby {
+    margin-top: 50px;
+}
+ul {
+    list-style: none;
+}
+}
+/* tablette*/
+
+
+/* mobile*/
+@media screen and (min-width:480px) and  (max-width: 767px) {
+    .information {
+        height: auto;
+    }
+    
+    .title_information {
+        margin-top: 50px;
+    }
+    
+    .user_and_picture {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .experiences_and_langue {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .title_langues {
+        margin-top: 50px;
+    }
+    
+    .training_and_hobby {
+        flex-direction: column;
+        
+    }
+    
+    .logiciel_and_langue {
+        margin-top: 50px;
+    }
+    
+    .hobby {
+        margin-top: 50px;
+    }
+   
+}
+/* mobile*/
+
+
+/* mobile*/
+@media screen and (min-width:370px) and  (max-width: 480px) {
+    .information {
+        height: auto;
+    }
+    
+    .title_information {
+        margin-top: 50px;
+    }
+    
+    .user_and_picture {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .experiences_and_langue {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .title_langues {
+        margin-top: 50px;
+    }
+    
+    .training_and_hobby {
+        flex-direction: column;
+        
+    }
+    
+    .logiciel_and_langue {
+        margin-top: 50px;
+    }
+    
+    .hobby {
+        margin-top: 50px;
+    }
+
+    .picture_nicolas_cv {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+}

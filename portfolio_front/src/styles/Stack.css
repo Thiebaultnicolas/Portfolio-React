@@ -1,0 +1,36 @@
+.border-stack {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 28%;
+    height: 260px;
+    padding: 1rem;
+    background-color: #9AC8EB
+}
+
+.stack-user {
+    padding-left: 37px;
+    animation: flash 8s ;
+    
+}
+
+
+@keyframes flash {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  
+  }
+
+   
+
+.iconstack {
+    color: #202124;
+    font-size: 70px;
+    align-items: center;
+    margin-right: 35px;
+    padding-top: 25px;
+  
+}
