@@ -5,7 +5,8 @@
     height: 260px;
     padding: 1rem;
     margin-right: 25px;
-    background-color: #9AC8EB;
+    background-color: #E2E9C0;
+    
 }
 
 .image-nicolas {
@@ -44,7 +45,7 @@ h2 {
 .button-icon-cv {
   cursor: pointer;
   border-style: none;
-  background-color: #9AC8EB;
+  background-color: #E2E9C0;
 }
 
 

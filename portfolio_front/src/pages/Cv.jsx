@@ -9,6 +9,17 @@ import { NavLink } from 'react-router-dom';
 const Cv = () => {
   return (
     <>
+         <div class="d-flex flex-column justify-content-center w-100 h-100">
+
+<div class="d-flex flex-column justify-content-center align-items-center">
+  <div class="btn-group my-5">
+   
+  </div>
+  <a href="https://manuel.pinto.dev" class="text-decoration-none">
+  </a>
+</div>
+</div>
+
      
         <div className='information'>
 
@@ -133,6 +144,7 @@ const Cv = () => {
                 </div>
             </article>
         </div>
+        
     </>
   );
 };

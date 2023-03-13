@@ -15,23 +15,10 @@ import '../styles/Home.css'
 const Home = () => {
     return (
         <>
-            <div class="bulle">
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-                <div><span class="dot"></span></div>
-            </div>
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+
             
             <div className='body-wrapper'>
                 

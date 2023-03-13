@@ -9,12 +9,7 @@ const Header = () => {
     return (
     <>
         <div className='Headerpages'>
-            <button aria-label="dark mode switch" className="switch_light">
-            <FontAwesomeIcon className="test" icon={faLightbulb}/>
-            </button>
-            <ul className='menu'>
            
-            </ul>
         </div>
         
     </>
