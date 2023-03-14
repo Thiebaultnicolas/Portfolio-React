@@ -17,6 +17,13 @@ body {
     }
   }
 
+ li {
+    list-style-type: none;
+ }
+
+ .information p {
+    font-family: 'Bebas Neue', cursive;
+ }
 .header {
     text-align: center;
 } 

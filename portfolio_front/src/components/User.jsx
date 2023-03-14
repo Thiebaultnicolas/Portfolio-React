@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faScroll,faEnvelope, faXmark} from "@fortawesome/free-solid-svg-icons";
 import {faLinkedin,faGithub} from "@fortawesome/free-brands-svg-icons";
+import CV from '../assets/CV_Nico.pdf'
 import {NavLink} from 'react-router-dom';
 
 const User = ({image}) => {
@@ -59,9 +60,9 @@ const User = ({image}) => {
                 </div>
             </div>
             <div className='presentation-social'>
-                <NavLink to={`/Cv`} className='lien-cv'>
+                <a href={CV} download='CV Nicolas' className='lien-cv'>
                     <FontAwesomeIcon className='icon-cv' icon={faScroll} onMouseEnter={() => setModal(c => !c)} onMouseLeave={() => setModal(c => !c)}/> 
-                </NavLink>
+                </a>
                 {modal && <span className='resume-message'>Mon CV </span>}
                 <button className='button-icon-cv' onClick={() => setWindow(c => !c)}>
                     <FontAwesomeIcon className='icon-cv' icon={faEnvelope}/>
@@ -100,7 +101,7 @@ const User = ({image}) => {
                     <FontAwesomeIcon className='icon-cv' icon={faLinkedin}/>
                 </a>
             </div>
-            <p>Développeur React, je développe des interfaces moderne tout en restant alerté sur la veille de mes technologies.</p>
+            <p>Développeur React, je développe des interfaces modernes tout en restant alerté sur la veille de mes technologies.</p>
         </div>           
         
     );

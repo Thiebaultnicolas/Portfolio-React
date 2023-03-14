@@ -151,6 +151,7 @@
     width: 20%;
 }
 }
+
 /* tablette*/
 
 /* media 13 pouces*/
@@ -226,7 +227,7 @@
 }
 /* mobile*/
 
-/* mobile*/
+/* mobile petit*/
 @media screen and (min-width:360px) and  (max-width: 480px) {
   .presentation {
     width: 90%;
@@ -273,7 +274,9 @@
   font-size: 14px;
 }
 }
+/* mobile petit*/
 
+/* mobile petit + +*/
 @media screen and (min-width:280px) and  (max-width: 360px) {
   .presentation {
     width: 90%;

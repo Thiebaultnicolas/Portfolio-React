@@ -160,3 +160,96 @@ p {
   font-size: 33px;
   cursor: pointer;
 }
+
+.testform input[type=submit] {
+  margin-right: 120px;
+}
+/* tablette*/
+@media screen and (min-width:768px) and (max-width:991px) {
+
+  .testform {
+    width: 690px;
+    height: 420px;
+  }
+
+ .widthform {
+    width: 480px;
+} 
+  .testform textarea {
+    width: 480px; 
+}
+
+.testform input[type=submit] {
+  margin-right: 95px;
+}
+
+}
+/* tablette*/
+
+/* mobile*/
+@media screen and (min-width:480px) and  (max-width: 767px) {
+  .testform {
+    width: 425px;
+    height: 400px;
+  }
+
+ .widthform {
+    width: 290px;
+} 
+  .testform textarea {
+    width: 290px; 
+}
+
+.testform input[type=submit] {
+  margin-right: 65px;
+}
+}
+/* mobile*/
+
+/* mobile petit*/
+@media screen and (min-width:360px) and  (max-width: 480px) {
+  .close-form {
+    left: 90%;
+    top: 2%; 
+}
+  .testform {
+    width: 330px;
+    height: 400px;
+  }
+
+ .widthform {
+    width: 220px;
+} 
+  .testform textarea {
+    width: 220px; 
+}
+
+.testform input[type=submit] {
+  margin-right: 50px;
+}
+}
+/* mobile petit*/
+
+/* mobile petit + +*/
+@media screen and (min-width:280px) and  (max-width: 360px) {
+  .close-form {
+    left: 88%;
+    top: 2%; 
+}
+  .testform {
+    width: 255px;
+    height: 400px;
+  }
+
+ .widthform {
+    width: 190px;
+} 
+  .testform textarea {
+    width: 190px; 
+}
+
+.testform input[type=submit] {
+  margin-right: 15px;
+}
+}
+/* mobile petit + +*/
