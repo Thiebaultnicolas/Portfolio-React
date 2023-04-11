@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faScroll,faEnvelope, faXmark} from "@fortawesome/free-solid-svg-icons";
 import {faLinkedin,faGithub} from "@fortawesome/free-brands-svg-icons";
-import CV from '../assets/CV_Nico.pdf'
+import CV from '../assets/CV Développeur web.pdf'
 import {NavLink} from 'react-router-dom';
 
 const User = ({image}) => {
