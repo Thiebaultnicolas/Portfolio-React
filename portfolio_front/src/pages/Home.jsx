@@ -31,14 +31,14 @@ const Home = () => {
                     <div className='borderproject'>
                         <h1>Portfolio </h1>
                         <div className="projecthome">
-                            <Project image={imagekasa}title="Kasa" description="Création d'une application web de location immobilière" code="Html5-Css3-JS-React" website="https://thiebault-nicolas-projet7-kasa.netlify.app/"  sourcecode="https://github.com/Thiebaultnicolas/P7-Kasa" />
+                            <Project image={imagekasa}title="Kasa" description="Application web de location immobilière" code="Html5-Css3-JS-React" website="https://thiebault-nicolas-projet7-kasa.netlify.app/"  sourcecode="https://github.com/Thiebaultnicolas/P7-Kasa" />
                             <Project image={imagePokédex} title="Pokédex" description="Construction d'une App Pokédex" code="Html5-Css3-JS-Angular" website="https://ng-pokemon-app-f8efc.web.app/login"  sourcecode="https://github.com/Thiebaultnicolas/Pokemon-pokedex-Angular" />
                             <Project image={imagekanap} title="Kanap" description="Construction d'un site e-commerce" code="Html5-Css3-JS" website="https://kanap.gtnsimon.dev/front/html/index.html"  sourcecode="https://github.com/Thiebaultnicolas/projet5-Construisez-un-site-e-commerce-en-JavaScript" />
                         </div>
                         <div className="projecthome2">
                             <Project image={imageohmyfood} title="Oh my food" description="Intégration d'une maquette avec animation" code="Html5-Css3" website="https://thiebaultnicolas.github.io/Ohmyfood/"  sourcecode="https://github.com/Thiebaultnicolas/Projet3-Ohmyfood"/>
                             <Project image={imagepanthere}title="La Panthère" description="Optimisation d'un site web existant" code="Référencement-SEO" website="https://thiebaultnicolas.github.io/debuggez-votre-site-SEO/"  sourcecode="https://github.com/Thiebaultnicolas/Projet4" />
-                            <Project image={imagebooki} title="Booki" description="Intégration d'une maquette" code="Html5-Css3" website="https://thiebaultnicolas.github.io/Booki/"  sourcecode="https://github.com/Thiebaultnicolas/Projet2-Booki" />
+                            <Project image={imagebooki} title="Booki" description="Intégration d'une maquette existante" code="Html5-Css3" website="https://thiebaultnicolas.github.io/Booki/"  sourcecode="https://github.com/Thiebaultnicolas/Projet2-Booki" />
                         </div>
                     </div>
                 </div> 
